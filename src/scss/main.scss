@@ -1,20 +1,17 @@
-@use "utilites";
+// @use "utilites";
 
-// 1. Vendors
+// @use "base/base";
+// @use "base/fonts";
+// @use "base/helpers";
+// @use "base/typography";
 
-// 2. Base stuff
-@use "base/base";
-@use "base/fonts";
-@use "base/helpers";
-@use "base/typography";
+// @use "layout/footer";
+// @use "layout/header";
 
-// 3. Layout-related sections
-@use "layout/footer";
-@use "layout/header";
+// @use "components/button";
 
-// 4. Components
-@use "components/button";
+@use "--examplex--/lesson-05/variables";
+@use "--examplex--/lesson-05/button";
 
-// 5. Pages
-
-// 6. Themes
+/* ****END *** */
+@use "--examplex--/lesson-05/base";
